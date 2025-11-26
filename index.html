@@ -1,26 +1,261 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site no GitHub Pages</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Bem-vindo ao meu site!</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data For Operations | Consultoria em dados para operacoes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav" id="inicio">
+      <div class="site-nav__brand">
+        <span class="logo">D4O</span>
+        <div>
+          <p>Data For Operations</p>
+          <small>Consultoria em dados</small>
+        </div>
+      </div>
+      <nav class="site-nav__links">
+        <a href="#solucoes">Solucoes</a>
+        <a href="#metodologia">Metodologia</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn--outline" href="#contato">Falar com a D4O</a>
+    </header>
 
-  <main>
-    <p>Este site está hospedado de graça no <strong>GitHub Pages</strong> 🚀</p>
-    <button onclick="mostrarMensagem()">Clique aqui</button>
-    <p id="mensagem"></p>
-  </main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Data For Operations</p>
+        <h1>Destravamos operacoes inteligentes com dados em alta velocidade</h1>
+        <p>
+          Conectamos fontes criticas, ativamos analytics em tempo real e implementamos automacoes que reduzem custos
+          e elevam a previsibilidade operacional em poucas semanas.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#contato">Planejar diagnostico</a>
+          <a class="btn btn--ghost" href="#solucoes">Ver solucoes</a>
+        </div>
+        <div class="hero__metrics">
+          <article>
+            <strong>14 dias</strong>
+            <span>para entregar dashboards executivos</span>
+          </article>
+          <article>
+            <strong>35%</strong>
+            <span>reducoes medias em tempos de ciclo</span>
+          </article>
+          <article>
+            <strong>5TB</strong>
+            <span>dados governados em clientes ativos</span>
+          </article>
+        </div>
+      </div>
+      <div class="hero__card">
+        <h3>Control tower D4O</h3>
+        <p>Blueprint inspirado no visual da Power Tuning: foco em performance, claridade e acionabilidade.</p>
+        <ul>
+          <li>Monitoramento de fluxo logistica + producao</li>
+          <li>Alertas inteligentes com IA generativa</li>
+          <li>Playbooks operacionais conectados a KPIs</li>
+        </ul>
+      </div>
+    </section>
 
-  <footer>
-    <p>Desenvolvido por <strong>Seu Nome</strong></p>
-  </footer>
+    <section class="sectors">
+      <p>Setores atendidos</p>
+      <ul>
+        <li>Logistica</li>
+        <li>Industria</li>
+        <li>Energia</li>
+        <li>Varejo</li>
+        <li>SaaS</li>
+      </ul>
+    </section>
 
-  <script src="script.js"></script>
-</body>
+    <section id="solucoes" class="section solutions">
+      <div class="section__header">
+        <p class="eyebrow">O que fazemos</p>
+        <h2>Plataformas e squads que deixam dados operacionais acionaveis</h2>
+        <p>
+          Inspirados pelo visual direto da Power Tuning, combinamos storytelling claro com experiencias digitais modernas
+          focadas em performance.
+        </p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="tag">01</span>
+          <h3>Arquitetura operativa</h3>
+          <p>Conectamos ERP, WMS, MES e sensores em pipelines resilientes com governanca e SLA.</p>
+          <ul>
+            <li>Data mesh com catalogo vivo</li>
+            <li>Modelos semanticos compatíveis com BI</li>
+            <li>Monitoramento 24/7</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="tag">02</span>
+          <h3>Analytics em tempo real</h3>
+          <p>Dashboards responsivos, alertas no celular e simulacoes para apoiar decisoes de campo.</p>
+          <ul>
+            <li>KPIs para supply e producao</li>
+            <li>Deteccao de anomalias</li>
+            <li>Playbooks de acao conectados</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="tag">03</span>
+          <h3>Automacao e IA operacional</h3>
+          <p>Robos e co-pilots que executam rotinas repetitivas e sugerem ajustes precisos.</p>
+          <ul>
+            <li>Integrações com RPA</li>
+            <li>Modelos preditivos de demanda</li>
+            <li>Assistentes de tomada de decisao</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="metodologia" class="section process">
+      <div class="section__header">
+        <p class="eyebrow">Metodologia proprietaria</p>
+        <h2>Pipeline D4O inspirado em squads de alta performance</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <h3>1. Descoberta</h3>
+          <p>Workshops com lideres de operacoes, TI e financas para definir ganhos de impacto.</p>
+        </article>
+        <article>
+          <h3>2. Design</h3>
+          <p>Blueprint visual, arquitetura de dados e definicao de indicadores criticos.</p>
+        </article>
+        <article>
+          <h3>3. Sprint build</h3>
+          <p>Sprints semanais com rituais de demo, usando nossos aceleradores low-code.</p>
+        </article>
+        <article>
+          <h3>4. Enablement</h3>
+          <p>Treinamento hands-on, rota de automacao e playbook de evolucao continua.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" aria-label="Centro de comando">
+      <div>
+        <p class="eyebrow">Centro de comando digital</p>
+        <h2>D4O Control Hub</h2>
+        <p>
+          Interface proprietaria que replica a energia visual do site da Power Tuning, com cards modulares,
+          gradientes fortes e microinteracoes que guiam o usuario direto ao dado relevante.
+        </p>
+        <ul class="checklist">
+          <li>Widgets para manutencao, estoque e campo</li>
+          <li>Modo claro/escuro para salas de operacao</li>
+          <li>Integra com Teams, Slack e WhatsApp</li>
+        </ul>
+      </div>
+      <div class="split__panel" role="presentation">
+        <div class="panel__badge">Live KPIs</div>
+        <h3>On-time delivery</h3>
+        <p>Meta 98%</p>
+        <div class="panel__stat">
+          <span>99.2%</span>
+          <small>Ultimas 4h</small>
+        </div>
+        <div class="panel__bars">
+          <span style="width: 72%">Produçao</span>
+          <span style="width: 54%">Logistica</span>
+          <span style="width: 88%">Atendimento</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultados" class="section results">
+      <div class="section__header">
+        <p class="eyebrow">Resultados medidos</p>
+        <h2>Impacto real em operacoes de alto volume</h2>
+      </div>
+      <div class="metrics">
+        <article>
+          <strong>R$ 18 Mi</strong>
+          <p>em desperdicios evitados apos previsao inteligente de paradas.</p>
+        </article>
+        <article>
+          <strong>+27pp</strong>
+          <p>de SLA cumprido em redes logísticas com controle em tempo real.</p>
+        </article>
+        <article>
+          <strong>4x</strong>
+          <p>mais velocidade para liberar novos indicadores com templates D4O.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section__header">
+        <p class="eyebrow">Voz dos clientes</p>
+        <h2>Operadores que aceleraram com a D4O</h2>
+      </div>
+      <div class="testimonials__grid">
+        <figure>
+          <blockquote>
+            "Parecia que ainda faltava algo no nosso BI. A D4O trouxe clareza visual, ritmos de entrega e automacoes que lembram o
+            site da Power Tuning: diretas e com impacto imediato."
+          </blockquote>
+          <figcaption>Luciana Prado · COO, Rede ViaCargo</figcaption>
+        </figure>
+        <figure>
+          <blockquote>
+            "O control hub D4O virou referencia para nossas salas de operacao. Conseguimos reduzir o tempo de resposta em 42%."
+          </blockquote>
+          <figcaption>Daniel Freitas · Diretor de Operacoes, Grupo Elevon</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div>
+        <p class="eyebrow">Vamos destravar eficiencia</p>
+        <h2>Conte seu desafio e receba um storyline visual em 48h</h2>
+        <p>
+          Entregamos um diagnostico guiado por dados, com mockups e plano de automacao inspirados no estilo direto e futurista
+          da Power Tuning.
+        </p>
+      </div>
+      <form class="contact__form">
+        <label>
+          Nome
+          <input type="text" placeholder="Nome completo" required />
+        </label>
+        <label>
+          E-mail corporativo
+          <input type="email" placeholder="nome@empresa.com" required />
+        </label>
+        <label>
+          Empresa
+          <input type="text" placeholder="Nome da empresa" />
+        </label>
+        <label>
+          Desafio operacional
+          <textarea rows="4" placeholder="Ex.: sincronizar dados de estoque e entregas"></textarea>
+        </label>
+        <button class="btn btn--primary" type="submit">Quero falar com a D4O</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <span class="logo">D4O</span>
+        <p>Data For Operations · Sao Paulo · Brasil</p>
+      </div>
+      <div>
+        <p>contato@dataforoperations.com</p>
+        <p>+55 11 4500-2040</p>
+      </div>
+      <div>
+        <p>© 2024 Data For Operations. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
 </html>
